@@ -1,0 +1,80 @@
+
+.callout-text {
+	padding-top: 2%;
+}
+.first-section h2 {
+	border-bottom: 3px solid #F07818;
+	font-family: 'Merienda', cursive;
+	margin-bottom: 5%;
+}
+.the-second-section p {
+	text-indent: 6%;
+}
+.the-second-section p.quotes {
+	font-weight: bold;
+	font-style: italic;
+	text-indent: 0;
+}
+.the-second-section article {
+	position: relative;
+    padding: 50px 40px;
+   text-transform: uppercase;
+   font-style: italic;
+    text-align: center;
+    color: #fff;
+    background: #F07818;;
+    -webkit-border-top-left-radius: 50%;
+    -webkit-border-top-right-radius: 50%;
+    -webkit-border-bottom-right-radius: 50%;
+    -webkit-border-bottom-left-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.the-second-section article:before {
+	content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 50px;
+    width: 30px;
+    height: 30px;
+    background: #F07818;;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}
+.the-second-section article:after {
+	content: "";
+    position: absolute;
+    bottom: -30px;
+    left: 30px;
+    width: 15px;
+    height: 15px;
+    background: #F07818;;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+.the-third-section {
+	border-top: 1px solid #F07818;
+	padding: 3% 0;
+}
+.name {
+	font-weight: bold;
+}
+p.different {
+	margin: 5% 0;
+	color: #78C0A8;
+	text-transform: uppercase;
+	text-shadow: 1px 1px #000;
+	font-size: 2em;
+	font-family: 'Merienda', cursive;
+}
+@media screen and (max-width: 740px) {
+	.the-second-section article:before, .the-second-section article:after {
+		display: none;
+	}
+	.the-second-section article {
+		margin: 5% 0;
+	}
+}
